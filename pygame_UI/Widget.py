@@ -17,7 +17,7 @@ class Text():
         render.set_alpha(Widget.alpha)
         self.surface.blit(render,render.get_rect(center=self.pos))
 
-    def setText(text:str):
+    def setText(self,text:str):
         self.text=text
 
     @staticmethod
